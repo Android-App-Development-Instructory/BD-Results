@@ -41,6 +41,7 @@ public class WebViewActivity extends AppCompatActivity {
         webSettings.setBuiltInZoomControls(true);
 
 
+
         webView.setWebViewClient(new WebViewClient(){
 
             @Override

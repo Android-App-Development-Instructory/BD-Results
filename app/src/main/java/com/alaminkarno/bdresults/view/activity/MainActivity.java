@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     private void showPopUpMessage() {
         new AlertDialog.Builder(this)
                 .setTitle("No Internet!")
-                .setMessage("Please connect your device with internet...")
+                .setMessage("Please connect your device with internet.")
                 .setCancelable(false)
                 .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                     @Override
@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 .setNegativeButton("Cancel",null)
                 .setIcon(R.drawable.ic_baseline_signal_cellular_connected_no_internet_4_bar_24)
                 .show();
+
     }
 
     private boolean isOnline() {
