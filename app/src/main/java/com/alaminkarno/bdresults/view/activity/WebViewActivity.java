@@ -1,4 +1,4 @@
-package com.alaminkarno.bdresults;
+package com.alaminkarno.bdresults.view.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,6 +13,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import com.alaminkarno.bdresults.R;
 
 public class WebViewActivity extends AppCompatActivity {
 
@@ -34,6 +36,10 @@ public class WebViewActivity extends AppCompatActivity {
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+        webSettings.setLoadWithOverviewMode(true);
+        webSettings.setUseWideViewPort(true);
+        webSettings.setBuiltInZoomControls(true);
+
 
         webView.setWebViewClient(new WebViewClient(){
 
