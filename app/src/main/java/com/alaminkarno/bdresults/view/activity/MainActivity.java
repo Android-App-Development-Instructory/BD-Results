@@ -42,14 +42,31 @@ public class MainActivity extends AppCompatActivity {
 
     private void setData() {
 
-        resultCardList.add(new ResultCard(getResources().getDrawable(R.drawable.psc_logo),Color.parseColor("#7DDAF4"),"PSC Result",Constant.PSC_SITE));
-        resultCardList.add(new ResultCard(getResources().getDrawable(R.drawable.jsc_logo),Color.parseColor("#FE9393"),"JSC Result",Constant.JSC_SITE));
-        resultCardList.add(new ResultCard(getResources().getDrawable(R.drawable.psc_logo),Color.parseColor("#7DDAF4"),"SSC Result",Constant.PSC_SITE));
-        resultCardList.add(new ResultCard(getResources().getDrawable(R.drawable.jsc_logo),Color.parseColor("#FE9393"),"HSC Result",Constant.JSC_SITE));
-        resultCardList.add(new ResultCard(getResources().getDrawable(R.drawable.psc_logo),Color.parseColor("#7DDAF4"),"PSC Result",Constant.PSC_SITE));
-        resultCardList.add(new ResultCard(getResources().getDrawable(R.drawable.jsc_logo),Color.parseColor("#FE9393"),"JSC Result",Constant.JSC_SITE));
-        resultCardList.add(new ResultCard(getResources().getDrawable(R.drawable.psc_logo),Color.parseColor("#7DDAF4"),"SSC Result",Constant.PSC_SITE));
-        resultCardList.add(new ResultCard(getResources().getDrawable(R.drawable.jsc_logo),Color.parseColor("#FE9393"),"HSC Result",Constant.JSC_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.PSC_LOGO),Constant.COLOR1,Constant.PSC_TITLE,Constant.PSC_PDC_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.MADRASA_LOGO),Constant.COLOR2,Constant.PDC_TITLE,Constant.PSC_PDC_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.JSC_SSC_HSC_LOGO),Constant.COLOR3,Constant.JSC_TITLE,Constant.JSC_JDC_SSC_DAKHIL_BOKESIONAL_HSC_ALIM_DIBS_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.MADRASA_LOGO),Constant.COLOR4,Constant.JDC_TITLE,Constant.JSC_JDC_SSC_DAKHIL_BOKESIONAL_HSC_ALIM_DIBS_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.JSC_SSC_HSC_LOGO),Constant.COLOR5,Constant.SSC_TITLE,Constant.JSC_JDC_SSC_DAKHIL_BOKESIONAL_HSC_ALIM_DIBS_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.MADRASA_LOGO),Constant.COLOR6,Constant.DAKHIL_TITLE,Constant.JSC_JDC_SSC_DAKHIL_BOKESIONAL_HSC_ALIM_DIBS_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.JSC_SSC_HSC_LOGO),Constant.COLOR7,Constant.HSC_TITLE,Constant.JSC_JDC_SSC_DAKHIL_BOKESIONAL_HSC_ALIM_DIBS_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.VOKESIONAL_LOGO),Constant.COLOR1,Constant.VOKESIONAL_TITLE,Constant.JSC_JDC_SSC_DAKHIL_BOKESIONAL_HSC_ALIM_DIBS_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.MADRASA_LOGO),Constant.COLOR2,Constant.ALIM_TITLE,Constant.JSC_JDC_SSC_DAKHIL_BOKESIONAL_HSC_ALIM_DIBS_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.VOKESIONAL_LOGO),Constant.COLOR3,Constant.DIBS_TITLE,Constant.JSC_JDC_SSC_DAKHIL_BOKESIONAL_HSC_ALIM_DIBS_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.DEGREE_HONOURS_MASTERS_PROFESSIONAL_LOGO),Constant.COLOR4,Constant.DEGREE_TITlE,Constant.DEGREE_HONOURS_MASTERS_PROFESSIONAL_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.DEGREE_HONOURS_MASTERS_PROFESSIONAL_LOGO),Constant.COLOR5,Constant.HONOURS_TITlE,Constant.DEGREE_HONOURS_MASTERS_PROFESSIONAL_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.DEGREE_HONOURS_MASTERS_PROFESSIONAL_LOGO),Constant.COLOR6,Constant.MASTERS_TITlE,Constant.DEGREE_HONOURS_MASTERS_PROFESSIONAL_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.DEGREE_HONOURS_MASTERS_PROFESSIONAL_LOGO),Constant.COLOR7,Constant.PROFESSIONAL_TITlE,Constant.DEGREE_HONOURS_MASTERS_PROFESSIONAL_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.DEGREE_HONOURS_MASTERS_PROFESSIONAL_LOGO),Constant.COLOR1,Constant.DEGREE_ADMISSION_TITlE,Constant.DEGREE_HONOURS_MASTERS_PROFESSIONAL_ADMISSION_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.DEGREE_HONOURS_MASTERS_PROFESSIONAL_LOGO),Constant.COLOR2,Constant.HONOURS_ADMISSION_TITlE,Constant.DEGREE_HONOURS_MASTERS_PROFESSIONAL_ADMISSION_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.DEGREE_HONOURS_MASTERS_PROFESSIONAL_LOGO),Constant.COLOR3,Constant.MASTERS_ADMISSION_TITlE,Constant.DEGREE_HONOURS_MASTERS_PROFESSIONAL_ADMISSION_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.DEGREE_HONOURS_MASTERS_PROFESSIONAL_LOGO),Constant.COLOR4,Constant.PROFESSIONAL_ADMISSION_TITlE,Constant.DEGREE_HONOURS_MASTERS_PROFESSIONAL_ADMISSION_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.BOU_LOGO),Constant.COLOR5,Constant.BOU_TITLE,Constant.BOU_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.XI_LOGO),Constant.COLOR6,Constant.XI_TITLE,Constant.XI_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.BEBT_LOGO),Constant.COLOR7,Constant.BEBT_TITLE,Constant.BEBT_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.MBBS_LOGO),Constant.COLOR1,Constant.MBBS_TITLE,Constant.MBBS_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.BDS_LOGO),Constant.COLOR2,Constant.BDS_TITLE,Constant.BDS_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.BCPS_LOGO),Constant.COLOR3,Constant.BCPS_TITLE,Constant.BCPS_SITE));
+        resultCardList.add(new ResultCard(getResources().getDrawable(Constant.NTRCA_LOGO),Constant.COLOR4,Constant.NTRCA_TITLE,Constant.NTRCA_SITE));
 
         adapter.notifyDataSetChanged();
     }
@@ -64,10 +81,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void openPSCWebView(View view) {
+    /*public void openPSCWebView(View view) {
 
         if(isOnline()){
-            openWebView(Constant.PSC_SITE);
+            openWebView(Constant.PSC_PDC_SITE);
         }
         else{
             showPopUpMessage();
@@ -79,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
     public void openJSCWebView(View view) {
 
         if(isOnline()){
-            openWebView(Constant.JSC_SITE);
+            openWebView(Constant.JSC_JDC_SSC_DAKHIL_BOKESIONAL_HSC_ALIM_DIBS_SITE);
         }
         else{
             showPopUpMessage();
@@ -117,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
         intent.putExtra(Constant.URL,siteURL);
         startActivity(intent);
-    }
+    }*/
 
 
 }
