@@ -1,13 +1,13 @@
-<h1 align="center"> BD-Results </h1>
+# BD-Results
 
-<p>This is for seeing results of all exam in Bangladesh.</p>
+This is for seeing results of all exam in Bangladesh. To making this app I have use RecyclerView. You can learn make this app using the below playlist video. If you need code you can copy from here. But you don't have right to use this code for selling.
 
-<h1 align="center"> BD Results App - Android Project (YouTube PlayList): </h1>
+## BD Results App - Android Project (YouTube PlayList):
 
 Link: https://youtube.com/playlist?list=PLDitZ-MAvK-4xBhXpimaF06S_sawzLXEj
 
 
-# ANDROID APP DEVELOPMENT COURSE (BANGLA):
+## ANDROID APP DEVELOPMENT COURSE (BANGLA):
 Link: https://instructory.net/courses/android-app-development-course-basic-to-advanced-2
 
 ## Screenshots:
@@ -16,15 +16,15 @@ Link: https://instructory.net/courses/android-app-development-course-basic-to-ad
 
 <img src="screenshots/MovieInfo (2).jpg" width="250">
 
-### 01. MOVIE DETAILS
+### 02. MOVIE DETAILS
 
 <img src="screenshots/MovieInfo (1).jpg" width="250">
 
-### 01. SEARCH MOVIE
+### 03. SEARCH MOVIE
 
 <img src="screenshots/MovieInfo (4).jpg" width="250">
 
-### 01. SEARCH RESULT
+### 04. SEARCH RESULT
 
 <img src="screenshots/MovieInfo (3).jpg" width="250">
 
