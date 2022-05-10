@@ -1,20 +1,20 @@
-# BD-Results
+# BD Results App
 
 This is for seeing results of all exam in Bangladesh. To making this app I have use RecyclerView. You can learn make this app using the below playlist video. If you need code you can copy from here. But you don't have right to use this code for selling.
 
-## Download App:
+### Download App:
 
 Link: https://terabox.com/s/1nOV3cEwK7eMpR3fe8QPVbw
 
-## BD Results App - Android Project (YouTube PlayList):
+### BD Results App - Android Project (YouTube PlayList):
 
 Link: https://youtube.com/playlist?list=PLDitZ-MAvK-4xBhXpimaF06S_sawzLXEj
 
 
-## ANDROID APP DEVELOPMENT COURSE (BANGLA):
+### ANDROID APP DEVELOPMENT COURSE (BANGLA):
 Link: https://instructory.net/courses/android-app-development-course-basic-to-advanced-2
 
-## Screenshots:
+### Screenshots:
 
 
 | Splash Screen      |  Home Screen |  WebView Screen |
