@@ -2,6 +2,10 @@
 
 This is for seeing results of all exam in Bangladesh. To making this app I have use RecyclerView. You can learn make this app using the below playlist video. If you need code you can copy from here. But you don't have right to use this code for selling.
 
+## Download App:
+
+Link: https://terabox.com/s/1nOV3cEwK7eMpR3fe8QPVbw
+
 ## BD Results App - Android Project (YouTube PlayList):
 
 Link: https://youtube.com/playlist?list=PLDitZ-MAvK-4xBhXpimaF06S_sawzLXEj
@@ -12,21 +16,10 @@ Link: https://instructory.net/courses/android-app-development-course-basic-to-ad
 
 ## Screenshots:
 
-### 01. HOME SCREEN
 
-<img src="screenshots/MovieInfo (2).jpg" width="250">
-
-### 02. MOVIE DETAILS
-
-<img src="screenshots/MovieInfo (1).jpg" width="250">
-
-### 03. SEARCH MOVIE
-
-<img src="screenshots/MovieInfo (4).jpg" width="250">
-
-### 04. SEARCH RESULT
-
-<img src="screenshots/MovieInfo (3).jpg" width="250">
+| Splash Screen      |  Home Screen |  WebView Screen |
+| :---:       |    :----:   | :----:   |
+| <img src="screenshots/bd_result_splash_screen.png" width="250">       |  <img src="screenshots/bd_result_home_screen.png" width="250">     |  <img src="screenshots/bd_result_web_screen.png" width="250">  |
 
 
 ### Disclaimer
@@ -35,7 +28,9 @@ for any query please contact me.
 
 ### Repository Owner Info
 
-__Md. Al-Amin__ <br>
+### Md. Al-Amin
+##### Junior Software Engineer (Android & iOS) at Rokomari.com
+
 __Email :__ [ alamin.karno@outlook.com ](mailto:alamin.karno@outlook.com) <br>
 __Github :__ [Md. Al-Amin](https://github.com/karno786)<br>
 __Facebook :__ [মোঃ আল-আমিন খন্দকার কর্ণ](https://facebook.com/alamin.kanro786) <br>
